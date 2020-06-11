@@ -1,5 +1,5 @@
-def oranlayici(a,b,c):
-    return a / (b + c) *100
+def oranlayici(bolunen, bolen, bolen2):
+    return bolunen / (bolen + bolen2) *100
 
 def get_input(mesaj):
   result = None
