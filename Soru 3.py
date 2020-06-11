@@ -8,11 +8,11 @@ while True:
     print("Talebiniz alındı lütfen bekleyiniz.")
     talep += [1]
     soru = input("Talebinize cevap verildi mi?")
-    if a == "evet" or a == "Evet":
+    if soru == "evet" or soru == "Evet":
         cevap.append(1)
         oran = oran_hesap()
         print("Güncel Talep, cevap oranı: ½{}".format(oran))
-    elif soru == "hayır" or a == "Hayır":
+    elif soru == "hayır" or soru == "Hayır":
         cevap += [0]
         oran = oran_hesap()
         print("Güncel Talep, cevap oranı: ½{}".format(oran))
